@@ -18,6 +18,8 @@ namespace NfcMyKeePass
 			return true;
 		}
 
+        public override string UpdateUrl => "";
+
         public override void Terminate()
         {
             _pluginHost.KeyProviderPool.Remove(_keyProvider);

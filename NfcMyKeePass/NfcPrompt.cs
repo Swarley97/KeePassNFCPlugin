@@ -44,6 +44,7 @@ namespace NfcMyKeePass
         {
             base.OnClosed(e);
             _acr122U.CardInserted -= Acr122u_CardInserted;
+            _acr122U.Dispose();
         }
 
         public byte[] Result { get; private set; }
