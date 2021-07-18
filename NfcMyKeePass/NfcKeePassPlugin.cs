@@ -18,7 +18,7 @@ namespace NfcMyKeePass
 			return true;
 		}
 
-        public override string UpdateUrl => "";
+        public override string UpdateUrl => "https://github.com/brendes333/KeePassNFCPlugin/blob/master/Version.txt";
 
         public override void Terminate()
         {
