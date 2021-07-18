@@ -8,7 +8,7 @@ using System.Threading;
 
 namespace NfcMyKeePass
 {
-    internal class ACR122U : IDisposable
+    public class ACR122U : IDisposable
     {
         private ISCardMonitor _cardMonitor;
 
