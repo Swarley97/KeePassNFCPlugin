@@ -5,7 +5,7 @@ namespace NfcMyKeePass
 {
     public class NfcTagKeyProvider : KeyProvider
     {
-        public override string Name => "NFC-Tag";
+        public override string Name => "Unlock via NFC tag";
 
         public override byte[] GetKey(KeyProviderQueryContext ctx)
         {

@@ -42,7 +42,7 @@ namespace NfcMyKeePass
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(111, 25);
             this.btnCancel.TabIndex = 0;
-            this.btnCancel.Text = "Abbrechen";
+            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
@@ -54,7 +54,7 @@ namespace NfcMyKeePass
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(256, 39);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Bitte NFC Tag an Lesegerät halten...";
+            this.label1.Text = "Please hold NFC tag to reader...";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel1
@@ -79,7 +79,7 @@ namespace NfcMyKeePass
             this.MinimizeBox = false;
             this.Name = "NfcPrompt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "NFC-Tag lesen";
+            this.Text = "Read from NFC tag";
             this.TopMost = true;
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
