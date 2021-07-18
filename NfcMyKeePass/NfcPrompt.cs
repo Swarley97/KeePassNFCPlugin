@@ -49,7 +49,7 @@ namespace NfcMyKeePass
 
         public byte[] Result { get; private set; }
 
-        private void Acr122u_CardInserted(ICardReader reader)
+        private void Acr122u_CardInserted(object sender, ICardReader reader)
         {
             if (TryGetMessageFromReader(reader, out byte[] message))
             {
